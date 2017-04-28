@@ -96,7 +96,7 @@ var db = massive.connect({connectionString : connString},
         res.json(deleted);
       })
     });
-})
+  })
 
 app.listen('3000', function(){
   console.log("Successfully listening on : 3000")
